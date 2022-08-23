@@ -27,8 +27,10 @@ public class Trade {
     private int quantity;
 
     private double price;
-    
+    //trade number
     private int trade_number;
+    //trade group
+    private int trade_group;
 
     public Type getType() {
         return type;
