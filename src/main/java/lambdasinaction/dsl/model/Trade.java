@@ -27,6 +27,8 @@ public class Trade {
     private int quantity;
 
     private double price;
+    
+    private int trade_number;
 
     public Type getType() {
         return type;
